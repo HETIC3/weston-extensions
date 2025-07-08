@@ -49,8 +49,12 @@ public class LIST extends ExtendM3Transaction {
 		}
 
 		int nbKeys = 2;
-		if(!plgr.isBlank() || !mere != null) {
-			nbKeys++;
+		if(plgr.isBlank() && mere == null) {
+
+		}else {
+			if(!plgr.isBlank() || !mere != null) {
+				nbKeys++;
+			}
 		}
 
 		String index = "00";
