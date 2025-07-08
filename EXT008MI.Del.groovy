@@ -1,7 +1,7 @@
 
 /**
  * README
- *
+ * Type : ExtendM3Transaction
  * Name: EXT008MI.Del
  * Description: Del a record in EXT008
  * Date                         Changed By                    Description
